@@ -2,7 +2,7 @@ streamlit
 pandas
 plotly
 vaderSentiment
-serpapi
 python-dotenv
+google-search-results>=2.4
 requests
 newsapi-python
