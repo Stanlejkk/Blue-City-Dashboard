@@ -32,7 +32,7 @@ def sentiment_analysis(df: pd.DataFrame, text_col: str) -> pd.DataFrame:
 def load_data():
     google = collect_reviews("0x471ecb57a156bd51:0x64ee744a4f4b14fe")
     facebook = fetch_facebook_posts("BlueCityWarszawa")
-    news = fetch_news_articles("Blue City Warszawa")
+    news = fetch_news_articles("Centrum Handlowe")
     return google, facebook, news
 
 
